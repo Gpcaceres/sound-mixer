@@ -1,10 +1,10 @@
-### Obtener todos los sound mixes
+### Get all sound mixes
 GET http://136.115.91.235:4005/soundmixer/ HTTP/1.1
 Content-Type: application/json
 
 ###
 
-### Obtener sound mix por ID
+### Get sound mix by ID
 GET http://136.115.91.235:4005/soundmixer/1 HTTP/1.1
 Content-Type: application/json
 
