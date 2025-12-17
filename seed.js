@@ -13,7 +13,7 @@ mongoose.connect("mongodb+srv://SrJCBM:bdd2025@cluster0.tjvfmrk.mongodb.net/soun
       { id: "4", name: "classical" }
     ];
     
-    // Insert datos
+    // Insert date into the collection
     SoundMix.insertMany(datos)
       .then(result => {
         console.log("Data inserted successfully:", result);
