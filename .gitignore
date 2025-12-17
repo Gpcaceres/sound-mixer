@@ -33,6 +33,5 @@ dist/
 build/
 coverage/
 .nyc_output/
-request.http
 docker-compose.yml
 Dockerfile
